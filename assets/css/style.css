@@ -1,0 +1,26 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#container {
+    margin: 40px auto;
+    width: 60%;
+    text-align: center;
+}
+#question {
+    font-size: 2rem;
+}
+#score {
+    float: left;
+}
+img {
+    max-width: 700px;
+}
+button {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 10px;
+    border: solid 2px blue;
+}

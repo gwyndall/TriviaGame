@@ -6,12 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Trivia Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="./assets/javascript/app.js"></script>
 </head>
 
 <body>
+    <div id="score"></div>
+    <div id="container">
+        <div id="question"></div>
+        <div id="choices"></div>
+        <img id="artImage">
 
+    </div>
     <!-- Credits -->
     <!-- Trivia from http://www.partycurrent.com/support-files/art-trivia-quiz.pdf -->
     <!-- Picasso photo By Argentina. Revista Vea y Lea - http://www.magicasruinas.com.ar/revistero/internacional/pintura-pablo-picasso.htm, Public Domain, https://commons.wikimedia.org/w/index.php?curid=3257370 -->
@@ -34,6 +41,9 @@
     <!-- Anti-art Dada movement https://www.tate.org.uk/art/art-terms/d/dada -->
     <!-- The Conversion of St. Paul by Caravaggio [Public domain], "https://commons.wikimedia.org/wiki/File:Michelangelo_Merisi_da_Caravaggio_-_The_Conversion_of_St._Paul_-_WGA04135.jpg">via Wikimedia Commons -->
     <!-- Hatching illustration [Public domain], "https://commons.wikimedia.org/wiki/File:Herstellung-eines-Kupferstichs.png">via Wikimedia Commons -->
+    <script>
+        $(document).ready(intro);
+    </script>
 </body>
 
 </html>
